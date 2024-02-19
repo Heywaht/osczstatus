@@ -18,6 +18,81 @@ sites:
     ipv6: true
 
 status-website:
+i18n:
+  activeIncidents: Aktive Vorfälle
+  allSystemsOperational: Alle Systeme laufen störungsfrei.
+  incidentReport: "Vorfall #$NUMBER Report →"
+  activeIncidentSummary: Eröffnet am $DATE mit $POSTS Beiträgen
+  incidentTitle: Vorfall $NUMBER Details
+  incidentDetails: Vorfall Details
+  incidentFixed: repariert
+  incidentOngoing: andauernd
+  incidentOpenedAt: eröffnet am
+  incidentClosedAt: Geschlossen am
+  incidentSubscribe: Updates abonnieren
+  incidentViewOnGitHub: Auf GitHub anschauen
+  incidentCommentSummary: Veröffentlicht am $DATE von $AUTHOR
+  incidentBack: ← Zurück zu allen Vorfällen
+  pastIncidents: Vergangene Vorfälle
+  pastIncidentsResolved: Gelöst in $MINUTES Minuten mit $POSTS posts
+  liveStatus: Live Status
+  overallUptime: "Gesamte Verfügbarkeit: $UPTIME"
+  overallUptimeTitle: Gesamte Verfügbarkeit
+  averageResponseTime: "Durchschnittliche Antwortzeit: $TIMEms"
+  averageResponseTimeTitle: Durchschnittliche Antwortzeit
+  sevelDayResponseTime: 7-Tage Antwortzeit
+  responseTimeMs: Antwortzeit (ms)
+  up: verfügbar
+  down: nicht verfügbar
+  degraded: Service degradiert
+  ms: ms
+  loading: am laden
+  navGitHub: GitHub
+  footer: Für Alle statt für Wenige
+  rateLimitExceededTitle: Ratengrenze überschritten
+  rateLimitExceededIntro: Sie haben die Ratengrenze überschritten (Request/h). Sie müssen nun warten, bis sie diese Seite erneut besuchen dürfen. Alternativ fügen Sie ein GitHub Personal Access Token hinzu, um diese Seite zu besuchen.
+  rateLimitExceededWhatDoesErrorMean: Was bedeutet dieser Fehler?
+  rateLimitExceededErrorMeaning: Diese Webseite verwendet die GitHub API um auf Echtzeitdaten über Ihre Webseite zuzugreifen. Standardmässig erlaubt Github 60 Anfragen pro Minute, was Sie nun erreicht haben.
+  rateLimitExceededErrorHowCanFix: Wie kann ich es lösen?
+  rateLimitExceededErrorFix: Sie können eine Stunde warten oder Sie fügen ein GitHub Personal Access Token hinzu, das Ihnen 5'000 zusätzliche Anfragen pro Stunde ermöglicht.
+  rateLimitExceededGeneratePAT: Lernen Sie mehr wie man ein persönliches Access Token generiert.
+  rateLimitExceededHasSet: Sie haben ein persönliches Access Token gesetzt.
+  rateLimitExceededRemoveToken: Token entfernen
+  rateLimitExceededGitHubPAT: GitHub Personal Access Token
+  rateLimitExceededCopyPastePAT: Ihr Token kopieren und einfügen
+  rateLimitExceededSaveToken: Token speichern
+  errorTitle: Ein Fehler ist aufgetreten
+  errorIntro: Ein Fehler ist aufgetreten beim Versuch, die letzten Status-Details abzurufen.
+  errorText: Sie können es in einem Moment erneut veruchen.
+  errorHome: Gehen Sie zur Homepage
+  pastScheduledMaintenance: Vergangene geplante Wartungen
+  scheduledMaintenance: Geplante Wartungen
+  scheduledMaintenanceSummaryStarted: Gestartet am $DATE für $DURATION Minuten
+  scheduledMaintenanceSummaryStarts: Startet am $DATE für $DURATION Minuten
+  startedAt: Gestartet am
+  startsAt: Startet am
+  duration: Dauer
+  durationMin: $DURATION Minuten
+  incidentCompleted: Abgeschlossen
+  incidentScheduled: Geplant
+  url: "URL"
+  status: "Status"
+  history: "Geschichte"
+  responseTime: "Antwortzeit"
+  responseTimeGraphAlt: "Antwortzeit Grafik"
+  responseTimeDay: "24-Stunden Antwortzeit"
+  responseTimeWeek: "7-Tage Antwortzeit"
+  responseTimeMonth: "30-Tage Antwortzeit"
+  responseTimeYear: "1-Jahr Antwortzeit"
+  uptime: "Gesamtverfügbarkeit"
+  uptimeDay: "24-Stunden Verfügbarkeit"
+  uptimeWeek: "7-Tage Verfügbarkeit"
+  uptimeMonth: "30-Tage Verfügbarkeit"
+  uptimeYear: "1-Jahres Verfügbarkeit"
+  liveStatusHtmlComment: "<!--live status-->"
+  degradedPerformance: "🟨 Leistung degradiert"
+  completeOutage: "🟥 Kompletter Ausfall"
+  partialOutage: "🟧 Teilausfall"
   theme: light
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
@@ -37,68 +112,3 @@ status-website:
 skipDescriptionUpdate: true
 skipTopicsUpdate: true
 skipHomepageUpdate: true
-
-i18n:
-activeIncidents: Aktive Vorfälle
-allSystemsOperational: Alle Systeme operativ
-incidentReport: Vorfall #$NUMBER Bericht →
-activeIncidentSummary: Geöffnet am $DATE mit $POSTS Beiträgen
-incidentTitle: Vorfall $NUMBER Details
-incidentDetails: Vorfall-Details
-incidentFixed: Behoben
-incidentOngoing: Laufend
-incidentOpenedAt: Geöffnet am
-incidentClosedAt: Geschlossen am
-incidentViewOnGitHub: Ansicht und Abonnement auf GitHub
-incidentCommentSummary: Gepostet am $DATE von $AUTOR
-incidentBack: ← Zurück zu allen Vorfällen
-pastIncidents: Vergangene Vorfälle
-pastIncidentsResolved: Behoben in $MINUTES Minuten mit $POSTS Beiträgen
-liveStatus: Live-Status
-overallUptime: "Gesamtbetriebszeit: $UPTIME"
-overallUptimeTitle: Gesamtbetriebszeit
-averageResponseTime: "Durchschnittliche Antwortzeit: $TIMEms"
-averageResponseTimeTitle: Durchschnittliche Antwortzeit
-sevelDayResponseTime: 7-Tage-Antwortzeit
-responseTimeMs: Antwortzeit (ms)
-up: Betriebsbereit
-down: Außer Betrieb
-degraded: Eingeschränkte Funktionalität
-ms: Millisekunden
-loading: Lädt
-navGitHub: GitHub
-footer: Diese Seite ist Open Source: $REPO und wird von Upptime: https://upptime.js.org betrieben.
-rateLimitExceededTitle: Anfragebereichsgrenze überschritten
-rateLimitExceededIntro: Sie haben die zulässige Anzahl an Anfragen pro Stunde überschritten. Bitte warten Sie, bevor Sie erneut auf diese Website zugreifen können. Alternativ können Sie einen GitHub Personal Access Token hinzufügen, um diese Website weiterhin nutzen zu können.
-rateLimitExceededWhatDoesErrorMean: Was bedeutet dieser Fehler?
-rateLimitExceededErrorMeaning: Diese Website nutzt die GitHub API, um Echtzeitdaten über den Status unserer Websites abzurufen. Standardmäßig erlaubt GitHub jeder IP-Adresse 60 Anfragen pro Stunde, welche Sie aufgebraucht haben.
-rateLimitExceededErrorHowCanFix: Wie kann ich das Problem beheben?
-rateLimitExceededErrorFix: Sie können eine weitere Stunde warten, bis das Limit Ihrer IP-Adresse wiederhergestellt wird. Alternativ können Sie Ihren GitHub Personal Access Token hinzufügen, der Ihnen 5.000 zusätzliche Anfragen pro Stunde gewährt.
-rateLimitExceededGeneratePAT: Erfahren Sie, wie Sie einen Personal Access Token generieren können.
-rateLimitExceededHasSet: Sie haben einen Personal Access Token eingerichtet.
-rateLimitExceededRemoveToken: Token entfernen
-rateLimitExceededGitHubPAT: GitHub Personal Access Token
-rateLimitExceededCopyPastePAT: Kopieren und Einfügen Sie Ihren Token
-rateLimitExceededSaveToken: Token speichern
-errorTitle: Ein Fehler ist aufgetreten
-errorIntro: Beim Versuch, die neuesten Statusdetails abzurufen, ist ein Fehler aufgetreten.
-errorText: Sie können es in wenigen Augenblicken erneut versuchen.
-errorHome: Zur Startseite gehen
-pastScheduledMaintenance: Vergangene geplante Wartungen
-scheduledMaintenance: Geplante Wartungen
-scheduledMaintenanceSummaryStarted: Gestartet am $DATE für $DURATION Minuten
-scheduledMaintenanceSummaryStarts: Startet am $DATE für $DURATION Minuten
-startedAt: Gestartet am
-startsAt: Startet am
-duration: Dauer
-durationMin: $DURATION Minuten
-incidentCompleted: Abgeschlossen
-incidentScheduled: Geplant
-duration24H: 24 Std.
-duration7D: 7 Tage
-duration30D: 30 Tage
-duration1Y: 1 Jahr
-durationAll: Alle
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
