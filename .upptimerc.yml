@@ -34,6 +34,10 @@ status-website:
     - title: Kontakt
       href: mailto:kontakt@oscz-freiberg.de
 
+skipDescriptionUpdate: true
+skipTopicsUpdate: true
+skipHomepageUpdate: true
+
 i18n:
 activeIncidents: Aktive Vorfälle
 allSystemsOperational: Alle Systeme operativ
