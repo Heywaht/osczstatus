@@ -108,7 +108,3 @@ i18n:
       href: /
     - title: Kontakt
       href: mailto:kontakt@oscz-freiberg.de
-
-skipDescriptionUpdate: true
-skipTopicsUpdate: true
-skipHomepageUpdate: true
