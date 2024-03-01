@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 97,
-    "timeDay": 75,
-    "timeWeek": 76,
-    "timeMonth": 97,
-    "timeYear": 97,
+    "time": 96,
+    "timeDay": 77,
+    "timeWeek": 75,
+    "timeMonth": 96,
+    "timeYear": 96,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 217,
-    "timeDay": 156,
-    "timeWeek": 198,
-    "timeMonth": 217,
-    "timeYear": 217,
+    "time": 209,
+    "timeDay": 69,
+    "timeWeek": 186,
+    "timeMonth": 209,
+    "timeYear": 209,
     "dailyMinutesDown": {}
   },
   {
@@ -42,18 +42,16 @@
     "slug": "hacker-news",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.43%",
-    "uptimeWeek": "99.92%",
-    "uptimeMonth": "99.98%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 241,
-    "timeDay": 318,
-    "timeWeek": 285,
-    "timeMonth": 241,
-    "timeYear": 241,
-    "dailyMinutesDown": {
-      "2024-02-29": 8
-    }
+    "time": 236,
+    "timeDay": 297,
+    "timeWeek": 268,
+    "timeMonth": 236,
+    "timeYear": 236,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Test Broken Site",
